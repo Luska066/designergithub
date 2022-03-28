@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(3, 3, 3);
+    color:white;
+}
+
+footer .logo2{
+    border: 1px solid black;
+}
+
+footer p{
+    padding: 20px;
+}
+
+.artigo_footer{
+    display: flex;
+    
+}
+
+.footer_item{
+    transition: all .6s;
+}
+
+.artigo_footer .footer_item:hover{
+    transform: scale(1.2,1.2);
+}
+
+.button p{
+    margin-top: 30px;
+    padding:20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #17109c;
+    border-radius:5px ;
+    color: white;
+    font: bold 13px Caviar Dreams;
+    width: 80px;
+    text-align: center;
+}
+
+.button p{
+    transition: all .6s;
+}
+
+.button p:hover{
+    transform: scale(1.2,1.2);
+    background-color: #2b8ae3;
+}
+
+nav{
+    flex: 0 1 auto;
+    background: linear-gradient(360deg,#152874 0%,#344eb7 100%);
+    color:white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#section1{
+    background-color: #12125f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    margin:20px;
+    position: relative;
+
+}
+
+.section1_text{
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+
+}
+
+.section1_text>h2,p{
+   margin:2px;
+}
+
+.section1_text h2{
+    font: bold 40px cocogoose;
+    color: white;
+}
+.section1_text>p{
+    width: 460px;
+    text-align: justify;
+    font-family: caviar dreams;
+    font: bold;
+    font-size: 12px;
+    color: white;
+    margin-right: 15px;
+}
+/*section2---------------------------------*/
+
+#section2{
+    flex: 0 1 auto;
+    box-shadow: inset 0px 0px 12px black;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+    height: 740px;
+}
+
+.section2header{
+    margin-top: 80px;
+}
+
+.section2header p{
+    font: bold 16px caviar dreams;
+}
+
+.section2header .informative{
+    font: bold 20px caviar dreams;
+}
+
+.section2header h2{
+    font:bold 30px cocogoose;
+    color: #0d2481;
+    padding:10px
+}
+
+.section2image{
+    flex: 0 1 auto;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 450px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.section2image>article img{
+    width: 200px;
+}
+
+.section2image>article .suport{
+    width: 200px;
+}
+
+.articleimage{
+    flex: 0 1 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 1 auto;
+    position: relative;
+    flex-direction: column;
+    margin: 50px;
+    text-align: center;
+    width: 300px;
+}
+
+.articleimage{
+    background-color: white;
+    height: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgb(150, 150, 150);
+    transition: all .6s;
+}
+
+.articleimage:hover{
+    transform: scale(1.1,1.1);
+}
+
+.articleimage h3{
+    position: relative;
+    bottom: 80px;
+    font:bold 16px heavitas;
+}
+
+
+.articleimage p{
+    position: relative;
+    bottom: 70px;
+    font: bold 13px caviar dreams;
+}
+
+.articleimage>.pc{
+    position: relative;
+    bottom: 6%;
+}
+
+
+.articleimage> img{
+    position: relative;
+    bottom: 25px;
+}
+
+
+.articleimage>.events{
+    position: relative;
+    bottom: 34px;
+
+}
+
+.articleimage>.title{
+    position: relative;
+   bottom:36%;
+}
+
+.articleimage>.text{
+    position: relative;
+   bottom:32%;
+}
+/*section3-----------------------------------*/
+
+#section3{
+    flex: 0 1 auto;
+    background: linear-gradient(120deg,#152874 20%,#344eb7 70%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.section_text h2{
+    font: bold 30px cocogoose;
+    margin-bottom: 10px;
+}
+
+.section_text p{
+    font: lighter 15px caviar dreams;
+    text-align: justify;
+}
+
+#section3 img{
+    position: relative;
+    padding: 20px;
+}
+
+#section3 .section_text{
+    flex: 0 1 auto;
+    width: 500px;
+    position: relative;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
