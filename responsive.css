@@ -1,0 +1,731 @@
+@media(max-width: 1286px){
+    #section4{
+        flex: 0 1 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 1100px;
+    }
+    
+    .navigation{
+        flex: 0 1 auto;
+        position: relative;
+        flex-wrap: wrap;
+        width: 400px;
+        padding-bottom: 10px;
+        margin-left: 92px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 550px;
+        cursor: pointer;
+    }
+}
+@media (max-width:1275px){
+    .section2image>article img{
+        width: 200px;
+    }
+    
+    .section2image>article .suport{
+        width: 200px;
+    }
+   
+    #section2{
+       
+    height: 1000px;
+    }
+}
+@media (max-width:1106px){
+    #ultimaSection{
+        height: 900px;
+    }
+    #motivo_box .motivo{
+        background-color: #ffffff;
+        box-shadow: 0px 2px 10px rgb(150, 150, 150);
+        border-radius: 10px;
+        color:black;
+        text-align: justify;
+        width: 280px;
+        margin: 40px;
+        height: 200px;
+        padding: 20px;
+        transition: all .6s;
+    }
+    .motivo h3{
+        text-align: center;
+        padding-bottom:20px ;
+        font: bold 20px heavitas;
+        color: #152874;
+    }
+    
+    .motivo p{
+        text-align: justify;
+        font: bold 15px caviar dreams;
+    }
+    #section2{
+       
+        height: 1000px;
+        }
+}
+@media (max-width:1096px){
+    .articleimage>.events{
+        position: relative;
+        bottom: 20px;
+    }
+
+    .articleimage{
+        background-color: white;
+        height: 250px;
+        width: 250px;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 4px 4px 8px rgb(150, 150, 150);
+        transition: all .6s;
+    }
+    
+    .articleimage h3{
+        position: relative;
+        bottom: 80px;
+        font:bold 12px heavitas;
+    }
+    
+    
+    .articleimage p{
+        position: relative;
+        bottom: 70px;
+        font: bold 10px caviar dreams;
+    }
+    
+    .articleimage{
+        background-color: white;
+        height: 200px;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 4px 4px 8px rgb(150, 150, 150);
+        transition: all .6s;
+    }
+   
+    #section3{
+        flex: 0 1 auto;
+        background: linear-gradient(120deg,#152874 20%,#344eb7 70%);
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding-top: 80px;
+    }
+    #section2{
+       
+        height: 1000px;
+        }
+}
+
+@media (max-width:1050px){
+    
+    
+    #section1{
+        padding-bottom: 40px;
+    }
+    
+    .section1_text{
+        flex: 0 1 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 300px;
+    
+    }
+}
+
+
+@media (max-width:856px){
+    #section2{
+       
+    height: 1300px;
+    }
+}
+
+@media (max-width:800px){
+    
+    #section2{
+       
+    height: 1300px;
+    }
+}
+
+@media (max-width:687px){
+    #section4 img{
+        width: 350px;
+    }
+    .div_item h2{
+        text-align: center;
+        font: bold 12px heavitas;
+        transition: all .5s;
+    }
+    #section3 img{
+        position: relative;
+        padding: 20px;
+        width: 350px;
+    }
+}
+
+@media (max-width:650px){
+
+    .articleimage h3{
+        position: relative;
+        bottom: 60px;
+        font:bold 16px heavitas;
+    }
+    
+    
+    .articleimage p{
+        position: relative;
+        bottom: 50px;
+        font: bold 13px caviar dreams;
+    }
+
+    .articleimage> img{
+        position: relative;
+        bottom: 12px;
+    }
+    footer img{
+     width: 150px;
+    }
+
+    .artigo_footer img{
+    width: 20px;
+    }
+}
+
+@media (max-width:550px){
+    .articleimage h3{
+        position: relative;
+        bottom: 60px;
+        font:bold 16px heavitas;
+    }
+    
+    
+    .articleimage p{
+        position: relative;
+        bottom: 50px;
+        font: bold 13px caviar dreams;
+    }
+
+    .articleimage> img{
+        position: relative;
+        bottom: 12px;
+    }
+
+    #section1 img{
+        width: 400px;
+    }
+    .section1_text{
+        flex: 0 1 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 500px;
+        height: 300px;
+    
+    }
+    
+    .section1_text>h2,p{
+       margin:2px;
+    }
+    
+    .section1_text h2{
+        font: bold 38px cocogoose;
+        color: white;
+    }
+    .section1_text>p{
+        width: 420px;
+        text-align: left;
+        font-family: caviar dreams;
+        font: bold;
+        font-size: 12px;
+        color: white;
+        margin-right: 15px;
+    }
+    #section3 img{
+        position: relative;
+        padding: 20px;
+        width: 350px;
+    }
+}
+
+@media (max-width:516px){
+    .articleimage h3{
+        position: relative;
+        bottom: 60px;
+        font:bold 16px heavitas;
+    }
+    
+    
+    .articleimage p{
+        position: relative;
+        bottom: 50px;
+        font: bold 13px caviar dreams;
+    }
+
+    .articleimage> img{
+        position: relative;
+        bottom: 12px;
+    }
+    #section3{
+        flex: 0 1 auto;
+        background: linear-gradient(120deg,#152874 20%,#344eb7 70%);
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    
+    .section_text h2{
+        margin-left: 20px;
+        font: bold 30px cocogoose;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+    
+    .section_text p{
+        margin-left: 20px;
+        font: lighter 15px caviar dreams;
+        text-align: left;
+    }
+    
+    #section3 img{
+        position: relative;
+        padding: 20px;
+        width: 350px;
+    }
+    
+}
+
+@media (max-width:500px){
+
+    .articleimage h3{
+        position: relative;
+        bottom: 60px;
+        font:bold 16px heavitas;
+    }
+    
+    
+    .articleimage p{
+        position: relative;
+        bottom: 50px;
+        font: bold 13px caviar dreams;
+    }
+
+    .articleimage> img{
+        position: relative;
+        bottom: 12px;
+    }
+    footer> img, .artigo_footer{
+     margin-right: 50px;
+    }
+    #ultimaSection{
+        height: 900px;
+    }
+    #motivo_box .motivo{
+        background-color: #ffffff;
+        box-shadow: 0px 2px 10px rgb(150, 150, 150);
+        border-radius: 10px;
+        color:black;
+        text-align: justify;
+        width: 280px;
+        height: 200px;
+        transition: all .6s;
+    }
+    .motivo h3{
+        text-align: center;
+        padding-bottom:20px ;
+        font: bold 20px heavitas;
+        color: #152874;
+    }
+    
+    .motivo p{
+        text-align: justify;
+        font: bold 15px caviar dreams;
+    }
+    #section2{
+       
+        height: 1500px;
+        }
+    
+}
+
+@media (max-width:468px){
+   .section1_text h2{
+       font: bold 35px cocogoose;
+   }
+
+   .section1_text>p{
+    width: 350px;
+    text-align: justify;
+    font-family: caviar dreams;
+    font: bold;
+    font-size: 12px;
+    color: white;
+    margin-right: 15px;
+}
+
+    footer{
+        flex: 0 1 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(3, 3, 3);
+        color:white;
+    }
+
+    footer img{
+        width: 80px;
+    }
+
+    .artigo_footer img{
+        width :15px;
+    }
+    #motivo_box .motivo{
+        background-color: #ffffff;
+        box-shadow: 0px 2px 10px rgb(150, 150, 150);
+        border-radius: 10px;
+        color:black;
+        text-align: justify;
+        width: 250px;
+  
+        height: 220px;
+        transition: all .6s;
+    }
+
+    #ultimaSection{
+        height: 1050px;
+    }
+ 
+}
+
+
+@media (max-width:420px){
+    
+    .articleimage h3{
+        position: relative;
+        bottom: 60px;
+        font:bold 16px heavitas;
+    }
+    
+    
+    .articleimage p{
+        position: relative;
+        bottom: 50px;
+        font: bold 13px caviar dreams;
+    }
+
+    .articleimage> img{
+        position: relative;
+        bottom: 12px;
+    }
+    footer{
+        flex: 0 1 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(3, 3, 3);
+        color:white;
+    }
+    #motivo_box .motivo{
+        background-color: #ffffff;
+        box-shadow: 0px 2px 10px rgb(150, 150, 150);
+        border-radius: 10px;
+        color:black;
+        text-align: justify;
+        width: 250px;
+        margin: 40px;
+        height: 220px;
+        padding: 20px;
+        transition: all .6s;
+    }
+
+    #section4{
+        height: 1200px;
+    }
+
+    .navigation{
+        height: 800px;
+    }
+ 
+    #section2{
+       
+        height: 1500px;
+        }
+        footer img{
+            width: 40px;
+            margin-left: 10px;
+        }
+    
+        .artigo_footer img{
+            width :10px;
+        }
+        #ultimaSection{
+            height: 1050px;
+        }
+        .articleimage h3{
+            position: relative;
+            bottom: 60px;
+            font:bold 16px heavitas;
+        }
+        
+        
+        .articleimage p{
+            position: relative;
+            bottom: 50px;
+            font: bold 13px caviar dreams;
+        }
+     
+}
+
+@media (max-width:468px){
+    .section1_text h2{
+        font: bold 35px cocogoose;
+    }
+    .articleimage h3{
+        position: relative;
+        bottom: 60px;
+        font:bold 16px heavitas;
+    }
+    
+    
+    .articleimage p{
+        position: relative;
+        bottom: 50px;
+        font: bold 13px caviar dreams;
+    }
+
+    .articleimage> img{
+        position: relative;
+        bottom: 12px;
+    }
+ 
+    .section1_text>p{
+     width: 350px;
+     text-align: justify;
+     font-family: caviar dreams;
+     font: bold;
+     font-size: 12px;
+     color: white;
+     margin-right: 15px;
+ }
+ 
+     footer{
+         flex: 0 1 auto;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-around;
+         align-items: center;
+         background-color: rgb(3, 3, 3);
+         color:white;
+     }
+ 
+     footer img{
+         width: 80px;
+         margin-left: 10px;
+     }
+ 
+     .artigo_footer img{
+         width :15px;
+     }
+     #motivo_box .motivo{
+         background-color: #ffffff;
+         box-shadow: 0px 2px 10px rgb(150, 150, 150);
+         border-radius: 10px;
+         color:black;
+         text-align: justify;
+         width: 250px;
+         height: 220px;
+         transition: all .6s;
+     }
+ 
+     #ultimaSection{
+         height: 1050px;
+     }
+     #section1 img{
+        width: 220px;
+    }
+    #section3 img{
+        width: 220px;
+        
+    }
+    #section4 img{
+        width: 220px;
+    }
+    .articleimage h3{
+        position: relative;
+        bottom: 60px;
+        font:bold 16px heavitas;
+    }
+    
+    
+    .articleimage p{
+        position: relative;
+        bottom: 50px;
+        font: bold 13px caviar dreams;
+    }
+  
+ }
+ 
+ @media (max-width:400px){
+    .section1_text h2{
+        font: bold 25px cocogoose;
+    }
+ 
+    .section1_text>p{
+     width: 280px;
+     text-align: justify;
+     font-family: caviar dreams;
+     font: bold;
+     font-size: 12px;
+     color: white;
+     margin-right: 15px;
+    }
+
+    #motivo_box .motivo{
+        background-color: #ffffff;
+        box-shadow: 0px 2px 10px rgb(150, 150, 150);
+        border-radius: 10px;
+        color:black;
+        text-align: justify;
+        width: 180px;
+        height: 260px;
+        transition: all .6s;
+    }
+    #section1 img{
+        width: 220px;
+    }
+    #section3 img{
+        width: 220px;
+        
+    }
+    #section4 img{
+        width: 220px;
+    }
+    .articleimage h3{
+        position: relative;
+        bottom: 60px;
+        font:bold 16px heavitas;
+    }
+    
+    
+    .articleimage p{
+        position: relative;
+        bottom: 50px;
+        font: bold 13px caviar dreams;
+    }
+    .articleimage> img{
+        position: relative;
+        bottom: 12px;
+    }
+ }
+
+ @media (max-width:390px){
+    #section1 img{
+        width: 220px;
+    }
+    #section3 img{
+        width: 220px;
+        
+    }
+    #section4 img{
+        width: 220px;
+    }
+    .section1_text h2{
+        font: bold 25px cocogoose;
+    }
+ 
+    .section1_text>p{
+     width: 280px;
+     text-align: justify;
+     font-family: caviar dreams;
+     font: bold;
+     font-size: 12px;
+     color: white;
+     margin-right: 15px;
+    }
+    footer{
+        flex: 0 1 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(3, 3, 3);
+        color:white;
+    }
+
+    footer img{
+        width: 55px;
+        margin-left: 10px;
+    }
+
+    .artigo_footer img{
+        width :10px;
+ }
+
+ #motivo_box .motivo{
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px rgb(150, 150, 150);
+    border-radius: 10px;
+    color:black;
+    text-align: justify;
+    width: 200px;
+    height: 250px;
+    transition: all .6s;
+}
+
+#ultimaSection{
+    height: 1050px;
+}
+
+.section2header p{
+    font: bold 12px caviar dreams;
+}
+
+.section2header .informative{
+    font: bold 15px caviar dreams;
+}
+
+.section2header h2{
+    font:bold 25px cocogoose;
+    color: #0d2481;
+    padding:10px
+}
+
+.articleimage h3{
+    position: relative;
+    bottom: 60px;
+    font:bold 16px heavitas;
+}
+
+
+.articleimage p{
+    position: relative;
+    bottom: 50px;
+    font: bold 13px caviar dreams;
+}
+.articleimage> img{
+    position: relative;
+    bottom: 12px;
+}
+ }
+

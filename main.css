@@ -1,11 +1,9 @@
 *{
     padding: 0;
+
     margin: 0;
 }
-body{
-    width: 100%;
-    height: 100%;
-}
+
 
 footer{
     flex: 0 1 auto;
@@ -17,17 +15,18 @@ footer{
     color:white;
 }
 
-footer .logo2{
-    border: 1px solid black;
-}
-
-footer p{
-    padding: 20px;
+footer img{
+    width: 200px;
+    margin-left: 25px;
 }
 
 .artigo_footer{
     display: flex;
     
+}
+
+.artigo_footer img{
+    width :20px;
 }
 
 .footer_item{
@@ -71,15 +70,19 @@ nav{
 }
 
 #section1{
+
     background-color: #12125f;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex:0 1 auto;
+
 }
 
-img{
-    margin:20px;
-    position: relative;
+#section1 img{
+    width: 500px;
 
 }
 
@@ -190,14 +193,14 @@ img{
 
 .articleimage h3{
     position: relative;
-    bottom: 80px;
+    bottom: 60px;
     font:bold 16px heavitas;
 }
 
 
 .articleimage p{
     position: relative;
-    bottom: 70px;
+    bottom: 50px;
     font: bold 13px caviar dreams;
 }
 
@@ -215,24 +218,25 @@ img{
 
 .articleimage>.events{
     position: relative;
-    bottom: 34px;
+    bottom:30px;
 
 }
 
 .articleimage>.title{
     position: relative;
-   bottom:36%;
+   bottom:27%;
 }
 
 .articleimage>.text{
     position: relative;
-   bottom:32%;
+   bottom:24%;
 }
 /*section3-----------------------------------*/
 
 #section3{
     flex: 0 1 auto;
     background: linear-gradient(120deg,#152874 20%,#344eb7 70%);
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     flex-direction: row;

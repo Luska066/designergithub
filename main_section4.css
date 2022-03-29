@@ -2,6 +2,7 @@
     flex: 0 1 auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -10,6 +11,7 @@
 .navigation{
     flex: 0 1 auto;
     position: relative;
+    flex-wrap: wrap;
     width: 400px;
     margin-right: 90px;
     display: flex;
@@ -45,12 +47,12 @@
 }
 
 .div_item h2{
-    width: 250px;
+    text-align: center;
     margin: 10px;
     position: relative;
     font: bold 12px heavitas;
     transition: all .5s;
-    left: 15%;
+
 }
 
 .div_item:hover{
@@ -65,7 +67,7 @@
 .div_item h2:hover{
     font: bold 16px heavitas;
 }
-
+/*ultima section ----------------------------------------*/
 #ultimaSection h2 {
     font: bold 30px heavitas;
     color:#152874
@@ -80,6 +82,7 @@
     flex: 0 1 auto;
     box-shadow: inset 0px 0px 8px rgb(109, 108, 108);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -90,11 +93,17 @@
 }
 
 .ultimaSectionHeader{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding-bottom:20px;
 }
 
 #motivo_box{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -133,6 +142,7 @@
 
 .motivo{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
