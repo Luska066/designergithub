@@ -68,7 +68,9 @@ nav{
     flex-direction: row;
     justify-content: center;
 }
-
+nav img{
+    width: 200px;
+}
 
 #section1{
 
